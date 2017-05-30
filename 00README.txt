@@ -19,7 +19,6 @@
 # - 16S_sensor shell script that is called by ribosensor.pl
 # - epn-options.pm perl module
 #
-
 # install.sh will also output instructions on how to define or modify
 # your $RIBOSENSORDIR, $SENSORDIR, $RIBODIR, $PERL5LIB, and $PATH
 # environment variables in your .bashrc of .cshrc file, a necessary
@@ -34,11 +33,13 @@
 # lines.
 #
 # -----------------------------------------------
-# An example of running install.sh in a new directory called dnaorg-dir in
+# An example of cloning the github repository with the install.sh 
+# script and running it in a new directory called ribosensor-dir in
 # your home directory would be:
 #
+# 'git clone https://github.com/nawrockie/ribosensor_install_script.git'
 # 'mkdir ~/ribosensor-dir'
-# 'cp install.sh ~/ribosensor-dir'
+# 'cp ribosensor_install_script/install.sh ~/ribosensor-dir'
 # 'cd ~/ribosensor-dir'
 # 'source ./install.sh'
 #
